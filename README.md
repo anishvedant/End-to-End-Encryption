@@ -75,11 +75,12 @@ They establish connections, send encrypted messages, receive and decrypt message
 1. Clone the repository.
 2. Ensure you have Python installed (Python 3.6 or higher recommended).
 3. Install the required dependencies: cryptography.
-4. Run the Server.py script to initialize the server.
+4. Run the key_gen.py file and generate a shared key.
+5. Run the Server.py script to initialize the server.
 5. Run the Alice.py script to simulate Alice's client.
 6. Run the Bob.py script to simulate Bob's server.
-6. Follow the prompts to enter messages and observe the encrypted communication.
-
+7. Input the shared key generated from the key_gen.py
+8. Follow the prompts to enter messages and observe the encrypted communication.
 
 # **Contributing**
 Contributions are welcome! Fork the repository and submit a pull request with your changes.

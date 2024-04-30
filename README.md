@@ -84,7 +84,7 @@ They establish connections, send encrypted messages, receive and decrypt message
 # **Contributing**
 Contributions are welcome! Fork the repository and submit a pull request with your changes.
 
-##  :bulb: Note:
+##  :bulb:Note:
 Ensure both Alice and Bob have the same shared key for successful communication.
 This project is for educational purposes and may require adjustments for production use.
 

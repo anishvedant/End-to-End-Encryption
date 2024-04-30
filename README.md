@@ -49,23 +49,23 @@ Enter messages as prompted to observe the encrypted communication between Alice 
 - **Alice.py:** Simulates Alice's client-side interaction. Encrypts messages and sends them to Bob, verifies message integrity.
 - **Bob.py:**  Simulates Bob's server-side interaction. Receives messages from Alice, decrypts them, and responds securely.
 
-# **How it Works:**
-### *Key Generation and Exchange:*
+# **How it Works**
+### *Key Generation and Exchange*
 
 The key_gen.py script generates public and private keys for Alice and Bob using the x25519 key exchange protocol.
 Key exchange is performed between Alice and Bob to derive a shared secret key for symmetric encryption.
 
-### *Server Setup and Client Connections:*
+### *Server Setup and Client Connections*
 
 The Server.py script initializes a server that listens for incoming client connections. Each client connection is handled in a separate thread.
 
-### *End-to-End Encryption:*
+### *End-to-End Encryption*
 
 Alice encrypts messages using AES encryption with a shared key derived from the key exchange. Messages are padded and encrypted using CBC mode with randomly generated Initialization Vectors (IVs).
 HMAC (Hash-based Message Authentication Code) is generated for each message to ensure message integrity. 
 Bob decrypts received messages using the shared key and verifies the HMAC for integrity.
 
-### *Client Interaction:*
+### *Client Interaction*
 
 Alice and Bob scripts simulate client-server interactions.
 They establish connections, send encrypted messages, receive and decrypt messages, and maintain message integrity through HMAC verification.

@@ -1,6 +1,5 @@
-import socket
+import socket, threading
 import binascii
-import threading
 from cryptography.hazmat.primitives import hashes, hmac
 from cryptography.hazmat.backends import default_backend
 

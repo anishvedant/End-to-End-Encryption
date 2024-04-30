@@ -4,8 +4,7 @@ from cryptography.hazmat.backends import default_backend
 from cryptography.hazmat.primitives import hashes
 from cryptography.hazmat.primitives.ciphers import Cipher, algorithms, modes
 from cryptography.hazmat.primitives import padding
-import os
-import binascii
+import binascii, os
 
 def bytes_to_int(byte_str):
     return int.from_bytes(byte_str, byteorder='big')

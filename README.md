@@ -14,7 +14,7 @@ This Python project demonstrates end-to-end encryption (E2EE) using the x25519 k
 1. **Clone the Repository:**
    
    ```bash
-   git clone https://github.com/your-username/e2ee-python-socket.git
+   git clone https://github.com/anishvedant/End-to-End-Encryption.git
    ```
 
 2. **Install Dependencies:**

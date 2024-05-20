@@ -23,7 +23,11 @@ This Python project demonstrates end-to-end encryption (E2EE) using the x25519 k
       pip install sockets
    ```
 ## Usage
-
+1. **Run the key_gen and generate a shared key:**
+   ```bash
+   python3 key_gen.py
+   ```
+   
 1. **Run the Server:**
    ```bash
    python3 Server.py
@@ -38,7 +42,9 @@ This Python project demonstrates end-to-end encryption (E2EE) using the x25519 k
    ```bash
    python3 Bob.py
    ```
-5. **Follow the Prompts:**
+5. **Input the shared key generated from the key_gen.py**
+   
+6. **Follow the Prompts:**
 
 Enter messages as prompted to observe the encrypted communication between Alice and Bob.
 
@@ -70,17 +76,6 @@ Bob decrypts received messages using the shared key and verifies the HMAC for in
 Alice and Bob scripts simulate client-server interactions.
 They establish connections, send encrypted messages, receive and decrypt messages, and maintain message integrity through HMAC verification.
 
-# **Running the Application**
-
-1. Clone the repository.
-2. Ensure you have Python installed (Python 3.6 or higher recommended).
-3. Install the required dependencies: cryptography.
-4. Run the key_gen.py file and generate a shared key.
-5. Run the Server.py script to initialize the server.
-5. Run the Alice.py script to simulate Alice's client.
-6. Run the Bob.py script to simulate Bob's server.
-7. Input the shared key generated from the key_gen.py
-8. Follow the prompts to enter messages and observe the encrypted communication.
 
 # **Contributing**
 Contributions are welcome! Fork the repository and submit a pull request with your changes.

@@ -45,8 +45,7 @@ This Python project demonstrates end-to-end encryption (E2EE) using the x25519 k
 5. **Input the shared key generated from the key_gen.py**
    
 6. **Follow the Prompts:**
-
-Enter messages as prompted to observe the encrypted communication between Alice and Bob.
+   Enter messages as prompted to observe the encrypted communication between Alice and Bob.
 
 ## File Descriptions 
 
